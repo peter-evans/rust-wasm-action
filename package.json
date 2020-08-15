@@ -25,9 +25,6 @@
     "url": "https://github.com/peter-evans/rust-wasm-action/issues"
   },
   "homepage": "https://github.com/peter-evans/rust-wasm-action#readme",
-  "dependencies": {
-    "@actions/core": "1.2.4"
-  },
   "devDependencies": {
     "@zeit/ncc": "0.22.3",
     "wasm-pack": "0.9.1"
