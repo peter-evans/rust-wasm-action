@@ -35,5 +35,7 @@ fn run() -> Result<(), Box<dyn Error>> {
     // Set the action output.
     core::set_output(&"result".into(), &"success".into());
 
-    Ok(())
+    panic!("blah")
+
+    //Ok(())
 }
