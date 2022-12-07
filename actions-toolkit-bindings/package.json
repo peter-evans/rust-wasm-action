@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "@actions/core": "1.9.1"
+    "@actions/core": "^1.10.0"
   }
 }
