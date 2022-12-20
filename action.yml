@@ -8,5 +8,5 @@ outputs:
   result:
     description: 'The result of the action execution'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'

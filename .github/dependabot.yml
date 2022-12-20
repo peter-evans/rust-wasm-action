@@ -3,13 +3,15 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     labels:
       - "dependencies"
 
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     allow:
-      - dependency-name: "@actions/*"
+      - dependency-type: "production"
+    labels:
+      - "dependencies"
