@@ -24,7 +24,7 @@ jobs:
       # Build and run tests
       - uses: actions/setup-node@v3
         with:
-          node-version: 12.x
+          node-version: 16.x
       - run: npm ci
       - run: npm run build
       - run: npm run format-check
