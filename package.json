@@ -30,6 +30,6 @@
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.2",
-    "wasm-pack": "^0.13.0"
+    "wasm-pack": "^0.13.1"
   }
 }
