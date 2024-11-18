@@ -29,7 +29,7 @@
     "@actions/core": "^1.11.1"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.38.2",
+    "@vercel/ncc": "^0.38.3",
     "wasm-pack": "^0.13.1"
   }
 }
